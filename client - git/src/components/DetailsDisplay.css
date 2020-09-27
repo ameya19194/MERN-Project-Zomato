@@ -1,0 +1,126 @@
+.filter{
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.filterbar{
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-width: 100%;
+    border: 1px solid rgb(150, 149, 149);
+    border-radius: 4px;
+    margin: 1px 0px;
+}
+
+.filterpaneldiv{
+    margin:auto;
+    border: none;
+    padding: 3px;
+}
+
+.panel-default .panel-group{
+    border: none;
+    margin: 3px;
+}
+
+.content{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.row{
+    margin: auto;
+}
+
+.collapse{
+    margin: 5px 10px;
+}
+
+.head{
+    margin: auto;
+    margin-top: 10px;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(60, 60, 102);
+}
+
+.tile{
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px #aaaaaa;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tile:hover, .tile:active{
+    box-shadow: 2px 2px 5px rgb(82, 82, 243);
+    text-decoration: none;
+}
+
+.arearadio input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.arearadio label {
+    display: inline-block;
+    /* background-color: #337ab7; */
+    background-color: rgb(88, 88, 88);
+    padding: 5px;
+    color: white;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    border: 1px solid #919292;
+    border-radius: 4px;
+    font-weight: lighter;
+    margin: auto;
+}
+
+.arearadio label:hover {
+  background-color: #296396;
+}
+
+.arearadio input[type="radio"]:focus + label {
+    border: 2px dashed #444;
+}
+
+.arearadio input[type="radio"]:checked + label {
+    background-color: #bfb;
+    border-color: #4c4;
+}
+
+.radio{
+    margin: 8px 0px;
+}
+
+.col-sm-4{
+    padding: 0px;
+}
+
+.col-sm-8{
+    min-height: 175px;
+}
+
+.col-sm-8 h3{
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #cb202d;
+    margin-top: 10px;
+}
+
+.col-sm-8 p{
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(36, 36, 36);
+    font-size: 15px;
+    margin: 3px;
+}
+
+.detailspan{
+    color: rgb(126, 122, 122);
+}
+
+.tileimg{
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 175px;
+}

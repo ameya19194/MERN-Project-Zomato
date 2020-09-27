@@ -1,0 +1,53 @@
+.xyz {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.thead-dark{
+    background-color: rgb(43, 42, 42);
+    color: #fff;
+    border-color: #454d55;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.tablediv{
+    border-radius: 20px;
+}
+
+.panel-heading{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.abc{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tab{
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.detailspan{
+    color: rgb(126, 122, 122);
+}
+
+p{
+    font-size: 16px;
+    margin: 5px 0px;
+}
+
+.uvw{
+
+}

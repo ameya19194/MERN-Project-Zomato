@@ -1,0 +1,48 @@
+.headimg{
+    object-fit: cover;
+    height: 370px;
+    width: 100%;
+}
+
+.contentDiv{
+    padding-left: 10px;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 4px;
+}
+
+.titlehotel{
+    color: #cb202d;
+    font-size: 30px;
+}
+
+.h4content {
+    padding: 3px 0px;
+    color: rgb(36, 36, 36);
+    font-size: 14px;
+}
+
+.span{
+    color: rgb(60, 60, 102);
+    font-size: 14px;
+}
+
+.tabs{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.tabpanel{
+    padding-left: 12px;
+}
+
+.back{
+    margin: 10px 5px 10px 10px;
+    border: 1px solid rgb(165, 164, 164);
+}
+
+.order{
+    margin: 10px 10px 10px 5px;
+    border: 1px solid rgb(165, 164, 164);
+}
